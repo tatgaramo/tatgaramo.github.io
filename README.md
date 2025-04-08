@@ -1,5 +1,5 @@
-<h3 align="center">Hola 👋, Soy Tatiana Garijo Amorós</h3>
-Estudiante de DAM | Desarrollo de software y aplicaciones multiplataforma
+<h1 align="center">Hola 👋, Soy Tatiana Garijo Amorós</h1>
+-  Estudiante de DAM | Desarrollo de software y aplicaciones multiplataforma
 
 - 🌱 Actualmente me encuentro aprendiendo sobre: ​​**Power BI (IBM - Datahack), Análisis de datos (Google), SQL (Fundae)**
 
