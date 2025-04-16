@@ -5,7 +5,5 @@ plugins:
 collections:
   proyectos:
     output: true
-
-collections:
   skills:
     output: true
