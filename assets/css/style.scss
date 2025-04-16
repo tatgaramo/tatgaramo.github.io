@@ -2,3 +2,43 @@
 ---
 
 @import "{{ site.theme }}";
+
+<style>
+/* Contenedor Flexbox */
+.skills-grid {
+    display: flex;          /* Activa Flexbox */
+    flex-wrap: wrap;        /* Permite que los elementos pasen a la siguiente línea */
+    gap: 20px;             /* Espacio entre tarjetas */
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    padding: 20px 0;       /* Espacio interno */
+}
+
+/* Tarjetas individuales */
+.skill-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 120px;          /* Ancho fijo para cada tarjeta */
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px); /* Efecto hover */
+}
+
+.skill-card img {
+    width: 50px;           /* Tamaño para iconos */
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* Responsive: En móviles se apila verticalmente */
+@media (max-width: 600px) {
+    .skills-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+</style>
