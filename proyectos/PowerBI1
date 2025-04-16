@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto 1 - Mi Portafolio</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html">← Volver al Inicio</a>
+        <h1>Landing Page Moderna</h1>
+    </header>
+
+    <main>
+        <img src="../assets/img/proyecto1-screenshot.jpg" alt="Captura del proyecto">
+        <section>
+            <h2>Descripción</h2>
+            <p>Desarrollé esta landing page usando HTML, CSS y JavaScript. Incluye efectos de scroll animados y diseño responsive.</p>
+        </section>
+
+        <section>
+            <h2>Tecnologías</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3 (Flexbox, Grid)</li>
+                <li>JavaScript ES6</li>
+            </ul>
+        </section>
+
+        <div class="project-links">
+            <a href="https://github.com/tu-usuario/proyecto1" class="btn" target="_blank">Código en GitHub</a>
+            <a href="https://tu-usuario.github.io/proyecto1-demo/" class="btn" target="_blank">Ver Demo</a>
+        </div>
+    </main>
+</body>
+</html>
