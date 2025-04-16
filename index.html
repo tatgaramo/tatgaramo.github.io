@@ -17,3 +17,44 @@ xxxxxxxxxxxxxxxxxx
 
 # 💻 Tecnologías:
 <a href="proyectos/PowerBI1.html" class="btn">Power BI</a>
+
+
+---
+layout: default
+title: "Mi Portafolio - Inicio"
+---
+<!-- Contenido específico de la página de inicio -->
+<section class="hero">
+    <div class="container">
+        <h1>¡Hola, soy {{ site.author | default: "Tu Nombre" }}!</h1>
+        <p class="subtitle">{{ site.description | default: "Bienvenido a mi portafolio profesional" }}</p>
+        <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Mi foto" class="profile-image">
+    </div>
+</section>
+
+<section class="skills">
+    <h2>Mis habilidades</h2>
+    <div class="skills-grid">
+        {% for skill in site.skills %}
+        <div class="skill-card">
+            <img src="{{ skill.icon | relative_url }}" alt="{{ skill.name }}">
+            <h3>{{ skill.name }}</h3>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="featured-projects">
+    <h2>Proyectos destacados</h2>
+    <div class="projects-grid">
+        {% for project in site.projects limit:3 %}
+        <div class="project-card">
+            <img src="{{ project.thumbnail | relative_url }}" alt="{{ project.title }}">
+            <h3>{{ project.title }}</h3>
+            <p>{{ project.excerpt }}</p>
+            <a href="{{ project.url | relative_url }}" class="btn">Ver proyecto</a>
+        </div>
+        {% endfor %}
+    </div>
+    <a href="{{ '/proyectos/' | relative_url }}" class="btn-all">Ver todos los proyectos</a>
+</section>
