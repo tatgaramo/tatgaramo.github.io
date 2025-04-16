@@ -19,10 +19,10 @@ navbar_links:
     
 skills:
   - name: "Power BI"
-    icon: "/assets/icons/pbi.ico"
+    icon: "/assets/icons/pbi.svg"
     - name: "Análisis de datos"
-    icon: "/assets/icons/ad.ico"
+    icon: "/assets/icons/ad.svg"
   - name: "SQL"
-    icon: "/assets/icons/sql.ico"
+    icon: "/assets/icons/sql.svg"
   - name: "Java"
-    icon: "/assets/icons/java.ico"
+    icon: "/assets/icons/java.svg"
