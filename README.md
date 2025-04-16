@@ -9,7 +9,7 @@
 - 📫 Cómo llegar a mí **garijoamorostatiana@gmail.com**
 
 # 💻 Tecnologías:
-<a href="proyectos/proyecto1.html" class="btn">Power BI</a>
+<a href="proyectos/PowerBI1.html" class="btn">Power BI</a>
 <!--
 **tatgaramo/tatgaramo** es un repositorio ✨ _especial_ ✨ porque su `README.md` (este archivo) aparece en su perfil de GitHub.
 
