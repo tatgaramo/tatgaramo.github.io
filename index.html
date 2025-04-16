@@ -1,11 +1,10 @@
-<!-- En todos los HTML -->
-<div id="header"></div>
+<!--<div id="header"></div>
 <script>
     fetch('../header.html')
         .then(response => response.text())
         .then(data => document.getElementById('header').innerHTML = data);
 </script>
-<!--<h1 align="center">Hola 👋, Soy Tatiana Garijo Amorós</h1>-->
+
 <h3 align="center">Estudiante de DAM | Desarrollo de software y aplicaciones multiplataforma</h3>
 xxxxxxxxxxxxxxxxxx
 - 🌱 Actualmente me encuentro aprendiendo:
@@ -18,7 +17,7 @@ xxxxxxxxxxxxxxxxxx
 # 💻 Tecnologías:
 <a href="proyectos/PowerBI1.html" class="btn">Power BI</a>
 
-
+-->
 ---
 layout: default
 title: "Mi Portafolio - Inicio"
@@ -26,7 +25,7 @@ title: "Mi Portafolio - Inicio"
 <!-- Contenido específico de la página de inicio -->
 <section class="hero">
     <div class="container">
-        <h1>¡Hola, soy {{ site.author | default: "Tu Nombre" }}!</h1>
+        <h1>¡Hola, soy {{ site.author | default: "Tatiana Garijo Amorós" }}!</h1>
         <p class="subtitle">{{ site.description | default: "Bienvenido a mi portafolio profesional" }}</p>
         <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Mi foto" class="profile-image">
     </div>
