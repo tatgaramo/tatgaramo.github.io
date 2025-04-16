@@ -1,32 +1,12 @@
-<!--<div id="header"></div>
-<script>
-    fetch('../header.html')
-        .then(response => response.text())
-        .then(data => document.getElementById('header').innerHTML = data);
-</script>
-
-<h3 align="center">Estudiante de DAM | Desarrollo de software y aplicaciones multiplataforma</h3>
-xxxxxxxxxxxxxxxxxx
-- 🌱 Actualmente me encuentro aprendiendo:
-  - ​​**Power BI**
-  - **Análisis de datos**
-  -  **SQL**
-
-- 📫 Cómo llegar a mí **garijoamorostatiana@gmail.com**
-
-# 💻 Tecnologías:
-<a href="proyectos/PowerBI1.html" class="btn">Power BI</a>
-
--->
 ---
 layout: default
 title: "Mi Portafolio - Inicio"
 ---
-<!-- Contenido específico de la página de inicio 
+<!-- Contenido específico de la página de inicio -->
 <section class="hero">
     <div class="container">
         <h1>¡Hola, soy {{ site.author | default: "Tatiana Garijo Amorós" }}!</h1>
-        <p class="subtitle">{{ site.description | default: "Bienvenido a mi portafolio profesional" }}</p>
+        <p class="subtitle">{{ site.description | default: "Bienvenido a mi portafolio" }}</p>
         <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Mi foto" class="profile-image">
     </div>
 </section>
@@ -43,7 +23,7 @@ title: "Mi Portafolio - Inicio"
     </div>
 </section>
 
-<section class="featured-projects">
+<!--<section class="featured-projects">
     <h2>Proyectos destacados</h2>
     <div class="projects-grid">
         {% for project in site.projects limit:3 %}
