@@ -1,28 +1,7 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
-title: [Hola 👋, Soy Tatiana Garijo Amorós]
-description: [Mi Portfolio]
 
-# Personalización
-navbar_links:
-  - name: "Inicio"
-    url: "/"
-  - name: "Power BI"
-    url: "proyectos/PowerBI1.html"
-  #- name: "Análisis de datos"
-  #  url: "/proyectos/analisis1.html"
- # - name: "SQL"
-  #  url: "/proyectos/sql1.html"
-  #  - name: "Java"
-  #  url: "/proyectos/java1.html"
-    
-skills:
-  - name: "Power BI"
-    icon: "/assets/icons/pbi.svg"
-  - name: "Análisis de datos"
-    icon: "/assets/icons/ad.png"
-  - name: "SQL"
-    icon: "/assets/icons/sql.png"
-  - name: "Java"
-    icon: "/assets/icons/java.png"
+collections:
+  proyectos:
+    output: true
