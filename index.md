@@ -2,13 +2,13 @@
 layout: default
 ---
 
-# ¡Hola! Soy {{ site.title }}
+# ¡Hola 👋, Soy {{ site.title }}!
 
 {{ site.description }}
 
 ## Sobre mí
 
-Soy un apasionado desarrollador con experiencia en múltiples tecnologías. 
+Soy una apasionada desarrolladora con conocimiento en múltiples tecnologías. 
 [Conoce más sobre mí](/about).
 
 ## Mis Habilidades
