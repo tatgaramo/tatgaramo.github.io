@@ -4,9 +4,9 @@ layout: default
 
 # ¡Hola 👋, Soy {{ site.title }}!
 
-<h2>Estudiante DAM 📚| Desarrollo de software y aplicaciones multiplataforma 💻</h2>
+<h2>Desarrolladora de software y aplicaciones multiplataforma 💻</h2>
 
-## Sobre mí
+##👩 Sobre mí
 
 Soy una apasionada desarrolladora con conocimiento en múltiples tecnologías. 
 [Conoce más sobre mí](/about).
@@ -22,7 +22,7 @@ Soy una apasionada desarrolladora con conocimiento en múltiples tecnologías.
       </a>
     </div>
 
-## Mis Habilidades
+## 📋 Mis Habilidades
 
 <div class="skills-grid">
   {% for skill in site.skills %}
@@ -33,7 +33,7 @@ Soy una apasionada desarrolladora con conocimiento en múltiples tecnologías.
   {% endfor %}
 </div>
 
-## Proyectos Destacados ✨
+## ✨Proyectos Destacados 
 
 <div class="projects-grid">
   {% for project in site.projects limit:3 %}
