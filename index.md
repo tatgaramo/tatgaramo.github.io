@@ -13,16 +13,13 @@ Soy una apasionada desarrolladora con conocimiento en múltiples tecnologías.
 
 ## Mis Habilidades
 
-<div class="skills-container">
-{% for skill in site.skills %}
-  <div class="skill-card">
-    <a href="{{ skill.url }}">
-      <img src="/assets/icons/{{ skill.icon }}" alt="{{ skill.title }}" class="skill-icon">
-      <h3>{{ skill.title }}</h3>
+<div class="skills-grid">
+  {% for skill in site.skills %}
+    <a href="{{ skill.url }}" class="skill-item">
+      <img src="/assets/icons/{{ skill.icon }}" alt="{{ skill.title }}">
+      {{ skill.title }}
     </a>
-    <p>{{ skill.description }}</p>
-  </div>
-{% endfor %}
+  {% endfor %}
 </div>
 
 ## Proyectos Destacados
