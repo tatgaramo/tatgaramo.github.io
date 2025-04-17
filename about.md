@@ -7,10 +7,11 @@ title: Sobre mí
 
 <div class="about-container">
   <div class="about-photo">
-    <img src="/assets/images/foto.png" alt="Tu nombre" class="profile-img">
+    <img src="/assets/images/foto.png" alt="Tatiana Garijo" class="profile-img">
   </div>
   
   <div class="about-content">
+    
     ## Mi trayectoria profesional
 
     Soy un apasionado desarrollador recién titulado, con muchas ganas de ganar experiencia en el desarrollo de software. 
