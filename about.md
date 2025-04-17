@@ -3,8 +3,6 @@ layout: default
 title: Sobre mí
 ---
 
-# Sobre mí
-
 <div class="about-header">
   <div class="about-title">
     <h1>Sobre mí</h1>
@@ -16,7 +14,7 @@ title: Sobre mí
 </div>
   
   <div class="about-content">
-    
+    <p>
     ## Mi trayectoria profesional
 
     Soy un apasionado desarrollador recién titulado, con muchas ganas de ganar experiencia en el desarrollo de software. 
@@ -36,3 +34,5 @@ title: Sobre mí
     ## Experiencia laboral
 
     ### Desarrollador Velneo (FCT) - Zataca (2025)
+    </p>
+    </div>
