@@ -6,6 +6,7 @@ title: Sobre mí
 <div class="about-photo-corner">
   <img src="/assets/images/foto.png" alt="Tatiana Garijo" class="profile-img-corner">
 </div>
+<div>
     <p>
     ## Mi trayectoria profesional
 
