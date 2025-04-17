@@ -3,7 +3,7 @@ title: "JAVA"
 icon: "java.png"
 url: "/skills/java"
 description: "Java ha sido el lenguaje de programación base durante mi formación en DAM."
-layout: skill
+layout: default
 projects:
   - Gestor-empleados
   - Gestor-Academia
