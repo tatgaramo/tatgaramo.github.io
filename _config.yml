@@ -1,5 +1,24 @@
-title:¡Hola 👋, soy Tatiana Garijo Amorós!
+title: ¡Hola 👋, soy Tatiana Garijo Amorós!
 description: Mi Portfolio Desarrollador DAM | | Desarrollo de software y aplicaciones multiplataforma. Aquí puedes ver algunas de mis habilidades y proyectos.
+theme: jekyll-theme-cayman
 remote_theme: pages-themes/cayman@v0.2.0
+
+# Configuración de colecciones
+collections:
+  skills:
+    output: true
+    permalink: /skills/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+    # Variables personalizadas
+social:
+  github: tuusuario
+  linkedin: tuusuario
+  twitter: tuusuario
+
+# Plugins (necesarios para GitHub Pages)
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme
+  - jekyll-seo-tag
