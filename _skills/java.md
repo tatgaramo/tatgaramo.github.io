@@ -4,7 +4,7 @@ title: Java
 icon: java.png
 description: "Java ha sido el lenguaje de programación base durante mi formación en DAM."
 projects:
-  - gestor-empleados
+  - gestor-empleados.md
 ---
 
 # {{ page.title }}
