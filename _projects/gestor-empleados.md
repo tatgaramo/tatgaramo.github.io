@@ -15,6 +15,14 @@ repo_url: https://github.com/tuusuario/gestor-empleados-->
 <img src="/assets/images/{{ page.slug }}.png" alt="{{ page.title }}">
 <!--![Captura del proyecto](/assets/images/{{ page.image }})-->
 
+<!-- Imágenes adicionales -->
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
+  {% for i in (1..4) %}
+    <img src="/assets/images/{{ page.slug }}-{{ i }}.png" 
+         alt="Captura {{ i }}" 
+         style="width: 48%; height: auto; border-radius: 5px;">
+  {% endfor %}
+</div>
 
 ## Descripción
 
@@ -31,7 +39,7 @@ Sistema completo desarrollado con Java e Hibernate que permite:
 
 
 ## Images
-<div class="image-grid">
+
 <!-- Imágenes adicionales -->
 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
   {% for i in (1..4) %}
