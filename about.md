@@ -3,10 +3,10 @@ layout: default
 title: Sobre mí
 ---
 
-<!--<div class="about-container">
+<div class="about-container">
   <div class="about-photo">
     <img src="/assets/images/foto.png" alt="Tatiana Garijo" class="profile-img">
-  </div>-->
+  </div>
   
   <div class="about-content">
     <h2>Mi trayectoria profesional</h2>
