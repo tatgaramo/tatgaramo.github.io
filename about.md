@@ -3,17 +3,9 @@ layout: default
 title: Sobre mí
 ---
 
-<div class="about-header">
-  <div class="about-title">
-    <h1>Sobre mí</h1>
-    <p class="subtitle">Tatiana Garijo</p>
-  </div>
-  <div class="about-photo-small">
-    <img src="/assets/images/foto.png" alt="Tatiana Garijo">
-  </div>
+<div class="about-photo-corner">
+  <img src="/assets/images/foto.png" alt="Tatiana Garijo" class="profile-img-corner">
 </div>
-  
-  <div class="about-content">
     <p>
     ## Mi trayectoria profesional
 
