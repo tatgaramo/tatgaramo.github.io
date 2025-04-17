@@ -17,7 +17,11 @@ repo_url: https://github.com/tuusuario/gestor-empleados-->
 <!-- Imágenes adicionales -->
 {% for i in (1..4) %}
   <img src="/assets/images/{{ page.slug }}-{{ i }}.png" 
-       alt="{{ page.title }} captura {{ i }}">
+       alt="{{ page.title }} captura {{ i }}"
+       loading="lazy"
+       width="400"
+       height="300"
+       style="max-width: 100%; height: auto;">>
 {% endfor %}
 <!--![Captura del proyecto](/assets/images/{{ page.image }})-->
 
