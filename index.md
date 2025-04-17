@@ -4,7 +4,7 @@ layout: default
 
 # ¡Hola 👋, Soy {{ site.title }}!
 
-<h2>Estudiante DAM | Desarrollo de software y aplicaciones multiplataforma.</h2>
+<h2>Estudiante DAM 💻| Desarrollo de software y aplicaciones multiplataforma.</h2>
 
 ## Sobre mí
 
