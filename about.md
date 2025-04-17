@@ -11,6 +11,18 @@ title: Sobre mí
   <div class="about-content">
     <h2>👩 Sobre mí</h2>
     <p>Soy un apasionado desarrollador recién titulado, con muchas ganas de ganar experiencia en el desarrollo de software.</p>
+<div class="social-links">
+      <a href="https://github.com/{{ site.social.github }}" target="_blank" rel="noopener">
+        <img src="/assets/icons/github.svg" alt="GitHub" width="24" height="24">
+      </a>
+      <a href="https://linkedin.com/in/{{ site.social.linkedin }}" target="_blank" rel="noopener">
+        <img src="/assets/icons/linkedin.png" alt="LinkedIn" width="24" height="24">
+      </a>
+      <a href="mailto:{{ site.social.email }}">
+        <img src="/assets/icons/email.svg" alt="Email" width="24" height="24">
+      </a>
+    </div>
+    
     
     <h3>📋 Mis conocimientos:</h3>
     <ul>
