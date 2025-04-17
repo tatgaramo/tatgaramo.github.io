@@ -6,10 +6,9 @@ layout: default
 
 <h2>Desarrolladora de software y aplicaciones multiplataforma 💻</h2>
 
-##👩 Sobre mí
+## 👩 Sobre mí
 
-Soy una apasionada desarrolladora con conocimiento en múltiples tecnologías. 
-[Conoce más sobre mí](/about).
+
 <div class="social-links">
       <a href="https://github.com/{{ site.social.github }}" target="_blank" rel="noopener">
         <img src="/assets/icons/github.svg" alt="GitHub" width="24" height="24">
@@ -21,6 +20,9 @@ Soy una apasionada desarrolladora con conocimiento en múltiples tecnologías.
         <img src="/assets/icons/email.svg" alt="Email" width="24" height="24">
       </a>
     </div>
+
+      Soy una apasionada desarrolladora con conocimiento en múltiples tecnologías. 
+      [Conoce más sobre mí](/about).
 
 ## 📋 Mis Habilidades
 
