@@ -1,34 +1,38 @@
 ---
 layout: default
-title: "Mi Portfolio"
 ---
 
-# ¡Hola 👋, soy Tatiana Garijo Amorós!
-Soy un desarrollador apasionado por la tecnología. Aquí puedes ver mis habilidades y proyectos.
+# ¡Hola! Soy {{ site.title }}
+
+{{ site.description }}
 
 ## Sobre mí
-Breve descripción sobre ti y tu experiencia.
 
-## **Mis habilidades1**
-[🔵 Java](#java) | [🟢 SQL](#sql) | [🟡 Power BI](#pbi) | [🟡 Análisis de Datos](#ad)
+Soy un apasionado desarrollador con experiencia en múltiples tecnologías. 
+[Conoce más sobre mí](/about).
 
-## Mis habilidades2
+## Mis Habilidades
+
+<div class="skills-container">
 {% for skill in site.skills %}
-- ![{{ skill.title }} Icon](/assets/icons/{{ skill.icon }}.png) [{{ skill.title }}]({{ skill.url }})
+  <div class="skill-card">
+    <a href="{{ skill.url }}">
+      <img src="/assets/icons/{{ skill.icon }}" alt="{{ skill.title }}" class="skill-icon">
+      <h3>{{ skill.title }}</h3>
+    </a>
+    <p>{{ skill.description }}</p>
+  </div>
 {% endfor %}
-
-## Habilidades3
-
-{% for skill in site.skills %}
-<div class="skill-item">
-  <a href="{{ skill.url }}">
-    <img src="/assets/icons/{{ skill.icon }}" alt="{{ skill.title }}" width="50">
-    <h3>{{ skill.title }}</h3>
-  </a>
 </div>
-{% endfor %}
 
-## **Mis proyectos**
-{% for project in site.projects %}
-- [{{ project.title }}]({{ project.url }})
+## Proyectos Destacados
+
+<div class="projects-highlight">
+{% for project in site.projects limit:3 %}
+  <div class="project-card">
+    <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
+    <img src="/assets/images/{{ project.image }}" alt="{{ project.title }}">
+    <p>{{ project.excerpt }}</p>
+  </div>
 {% endfor %}
+</div>
