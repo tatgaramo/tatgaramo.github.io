@@ -16,7 +16,7 @@ Soy una apasionada desarrolladora con conocimiento en múltiples tecnologías.
 <div class="skills-grid">
   {% for skill in site.skills %}
     <a href="{{ skill.url }}" class="skill-item">
-      <img src="/assets/icons/{{ skill.icon }}" alt="{{ skill.title }}">
+      <img src="/assets/icons/{{ skill.png }}" alt="{{ skill.title }}">
       {{ skill.title }}
     </a>
   {% endfor %}
