@@ -13,16 +13,14 @@ repo_url: https://github.com/tuusuario/gestor-empleados-->
 
 <!-- Imagen principal -->
 <img src="/assets/images/{{ page.slug }}.png" alt="{{ page.title }}">
-
+<div class="image-grid">
 <!-- Imágenes adicionales -->
 {% for i in (1..4) %}
   <img src="/assets/images/{{ page.slug }}-{{ i }}.png" 
        alt="{{ page.title }} captura {{ i }}"
-       loading="lazy"
-       width="400"
-       height="300"
-       style="max-width: 100%; height: auto;">>
+       loading="lazy">>
 {% endfor %}
+  </div>
 <!--![Captura del proyecto](/assets/images/{{ page.image }})-->
 
 
