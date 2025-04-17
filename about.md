@@ -46,4 +46,4 @@ title: Sobre mí
     <h3>Desarrollador Velneo (FCT) - Zataca (2025)</h3>
     <p>[Descripción de tus responsabilidades y logros]</p>
   </div>
-</div>
+
