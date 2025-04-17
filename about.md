@@ -5,10 +5,15 @@ title: Sobre mí
 
 # Sobre mí
 
-<div class="about-container">
-  <div class="about-photo">
-    <img src="/assets/images/foto.png" alt="Tatiana Garijo" class="profile-img">
+<div class="about-header">
+  <div class="about-title">
+    <h1>Sobre mí</h1>
+    <p class="subtitle">Tatiana Garijo</p>
   </div>
+  <div class="about-photo-small">
+    <img src="/assets/images/foto.png" alt="Tatiana Garijo">
+  </div>
+</div>
   
   <div class="about-content">
     
