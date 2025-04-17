@@ -29,7 +29,7 @@ Soy una apasionada desarrolladora con conocimiento en múltiples tecnologías.
   <div class="project-card">
     <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
     <img src="/assets/images/{{ project.image }}" alt="{{ project.title }}">
-    <p>{{ project.excerpt }}</p>
+    <!--<p>{{ project.excerpt }}</p>-->
   </div>
 {% endfor %}
 </div>
