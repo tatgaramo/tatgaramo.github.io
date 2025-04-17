@@ -21,12 +21,11 @@ title: Sobre mí
       <a href="mailto:{{ site.social.email }}">
         <img src="/assets/icons/email.svg" alt="Email" width="24" height="24">
       </a>
-  
        <a href="/assets/docs/cv.pdf" target="_blank">
-  <img src="/assets/icons/cv.png" alt="Ver CV" width="24" height="24">
+        <img src="/assets/icons/cv.png" alt="Ver CV" width="24" height="24">
   <!-- O usando Font Awesome 
   <i class="fas fa-file-pdf"></i> Ver PDF-->
-</a>
+        </a>
     </div>
     
     
