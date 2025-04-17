@@ -1,3 +1,28 @@
+.about-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.about-photo-small {
+  margin-left: 20px;
+}
+
+.about-photo-small img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #159957;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 1.2rem;
+  margin-top: -10px;
+}
+
 /* Estilos generales */
 .skills-grid {
   display: grid;
