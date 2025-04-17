@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    
-    <meta charset="UTF-8">
-    <title>{{ page.title | default: site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+  <meta charset="utf-8">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 </head>
 <body>
-    <nav>
-        <a href="/">Inicio</a>
-        <a href="/habilidades/">Habilidades</a>
-        <a href="/proyectos/">Proyectos</a>
-    </nav>
+  {% include nav.html %}  <!-- Inserta el menú aquí -->
 
-    <main>
-        {{ content }}
-    </main>
+  <main>
+    {{ content }}  <!-- Contenido de cada página -->
+  </main>
+
+  <footer>
+    <p>© {{ site.time | date: '%Y' }} {{ site.title }}</p>
+  </footer>
 </body>
 </html>
