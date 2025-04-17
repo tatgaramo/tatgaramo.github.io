@@ -22,7 +22,7 @@ title: Sobre mí
     
     <h2>Educación</h2>
     <ul>
-      <li><strong>FPGS Desarrollo de Aplicaciones Multiplataforma</strong> - IES Severo Ochoa, Elche XYZ (2022-2025)</li>
+      <li><strong>FPGS Desarrollo de Aplicaciones Multiplataforma</strong> - IES Severo Ochoa, Elche (2022-2025)</li>
       <li><strong>Power BI</strong> - IBM - Datahack (2025)</li>
       <li><strong>Análisis de Datos</strong> - Google (en curso)</li>
     </ul>
