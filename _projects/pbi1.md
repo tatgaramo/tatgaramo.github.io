@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Proyecto curos IBM - Datahack
+title: Proyecto curso IBM - Datahack
 slug: pbi-1
 image: gestor-empleados.png
 description: Informe para el análisis y visualizacion de datos, proyecto del curso realizado IBM-Datahack
@@ -28,7 +28,7 @@ Informe para el análisis y visualizacion de datos de Google ads:
 
 ## Enlaces
 
-[Ver demo en vivo]({{ page.demo_url }}) | 
+[Ver]({{ page.demo_url }}) | 
 [Repositorio en GitHub]({{ page.repo_url }})
 
 [Volver a Java](/skills/java) | 
