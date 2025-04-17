@@ -12,7 +12,6 @@ title: Sobre mí
     <h2>👩 Sobre mí</h2>
     <p>Soy un apasionado desarrollador recién titulado, con muchas ganas de ganar experiencia en el desarrollo de software.</p>
 <div class="social-links">
-      
       <a href="https://linkedin.com/in/{{ site.social.linkedin }}" target="_blank" rel="noopener">
         <img src="/assets/icons/linkedin.png" alt="LinkedIn" width="24" height="24">
       </a>
