@@ -10,6 +10,17 @@ layout: default
 
 Soy una apasionada desarrolladora con conocimiento en múltiples tecnologías. 
 [Conoce más sobre mí](/about).
+<div class="social-links">
+      <a href="https://github.com/{{ site.social.github }}" target="_blank" rel="noopener">
+        <img src="/assets/icons/github.svg" alt="GitHub" width="24" height="24">
+      </a>
+      <a href="https://linkedin.com/in/{{ site.social.linkedin }}" target="_blank" rel="noopener">
+        <img src="/assets/icons/linkedin.png" alt="LinkedIn" width="24" height="24">
+      </a>
+      <a href="mailto:{{ site.social.email }}">
+        <img src="/assets/icons/email.svg" alt="Email" width="24" height="24">
+      </a>
+    </div>
 
 ## Mis Habilidades
 
