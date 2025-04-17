@@ -14,9 +14,9 @@ collections:
 
     # Variables personalizadas
 social:
-  github: tuusuario
-  linkedin: tuusuario
-  twitter: tuusuario
+  github: tatgaramo
+  linkedin: tatiana-garijo-19a288156
+  email: garijoamorostatiana@gmail.com
 
 # Plugins (necesarios para GitHub Pages)
 plugins:
