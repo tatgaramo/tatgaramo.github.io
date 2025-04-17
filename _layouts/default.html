@@ -22,6 +22,17 @@
   <header class="page-header">
     <h1 class="project-name">{{ site.title }}</h1>
     <h2 class="project-tagline">{{ site.description }}</h2>
+    <div class="social-links">
+      <a href="https://github.com/{{ site.social.github }}" target="_blank" rel="noopener">
+        <img src="/assets/icons/github.svg" alt="GitHub" width="24" height="24">
+      </a>
+      <a href="https://linkedin.com/in/{{ site.social.linkedin }}" target="_blank" rel="noopener">
+        <img src="/assets/icons/linkedin.png" alt="LinkedIn" width="24" height="24">
+      </a>
+      <a href="mailto:{{ site.social.email }}">
+        <img src="/assets/icons/email.svg" alt="Email" width="24" height="24">
+      </a>
+    </div>
     <nav>
       <a href="{{ "/" | relative_url }}" class="btn">Inicio</a>
       <a href="{{ "/about" | relative_url }}" class="btn">Sobre mí</a>
@@ -34,21 +45,7 @@
 
  <footer class="site-footer">
   <div class="footer-content">
-    <p class="copyright">© {{ site.time | date: '%Y' }} {{ site.title }} <span style="margin-left: 40px;">
-  
-     
-    <div class="social-links">
-      <a href="https://github.com/{{ site.social.github }}" target="_blank" rel="noopener">
-        <img src="/assets/icons/github.svg" alt="GitHub" width="24" height="24">
-      </a>
-      <a href="https://linkedin.com/in/{{ site.social.linkedin }}" target="_blank" rel="noopener">
-        <img src="/assets/icons/linkedin.png" alt="LinkedIn" width="24" height="24">
-      </a>
-      <a href="mailto:{{ site.social.email }}">
-        <img src="/assets/icons/email.svg" alt="Email" width="24" height="24">
-      </a>
-    </div>
- </span>
+    <p class="copyright">© {{ site.time | date: '%Y' }} {{ site.title }} 
     </p>
     <small class="icons-credit">
        Iconos by 
