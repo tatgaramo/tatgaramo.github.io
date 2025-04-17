@@ -8,7 +8,9 @@ layout: default
 
 ## 👩 Sobre mí
 
-
+ Soy una apasionada desarrolladora con conocimiento en múltiples tecnologías. 
+ [Conoce más sobre mí](/about).
+      
 <div class="social-links">
       <a href="https://github.com/{{ site.social.github }}" target="_blank" rel="noopener">
         <img src="/assets/icons/github.svg" alt="GitHub" width="24" height="24">
@@ -21,8 +23,6 @@ layout: default
       </a>
     </div>
 
-      Soy una apasionada desarrolladora con conocimiento en múltiples tecnologías. 
-      [Conoce más sobre mí](/about).
 
 ## 📋 Mis Habilidades
 
