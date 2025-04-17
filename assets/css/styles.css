@@ -1,6 +1,6 @@
 /* About Section - Estilos corregidos */
 .about-container {
-  max-width: 900px; /* Corregido de 90px a 900px */
+  max-width: 800px; 
   margin: 2rem auto;
   padding: 1rem;
   display: flex;
@@ -14,8 +14,8 @@
 }
 
 .profile-img {
-  width: 200px; /* Corregido de 20px a 200px */
-  height: 200px; /* Corregido de 20px a 200px */
+  width: 80px; 
+  height: 80px; /
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #159957;
