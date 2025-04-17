@@ -7,3 +7,13 @@ collections:
     output: true
   skills:
     output: true
+
+skills:
+  - name: "Power BI"
+    icon: "/assets/icons/pbi.svg"
+  - name: "Análisis de datos"
+    icon: "/assets/icons/ad.png"
+  - name: "SQL"
+    icon: "/assets/icons/sql.png"
+  - name: "Java"
+    icon: "/assets/icons/java.png"
