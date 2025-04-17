@@ -6,12 +6,26 @@ title: "Mi Portfolio"
 # ¡Hola 👋, soy Tatiana Garijo Amorós!
 Soy un desarrollador apasionado por la tecnología. Aquí puedes ver mis habilidades y proyectos.
 
-## **Mis habilidades**
+## Sobre mí
+Breve descripción sobre ti y tu experiencia.
+
+## **Mis habilidades1**
 [🔵 Java](#java) | [🟢 SQL](#sql) | [🟡 Power BI](#pbi) | [🟡 Análisis de Datos](#ad)
 
-## Mis habilidades
+## Mis habilidades2
 {% for skill in site.skills %}
 - ![{{ skill.title }} Icon](/assets/icons/{{ skill.icon }}.png) [{{ skill.title }}]({{ skill.url }})
+{% endfor %}
+
+## Habilidades3
+
+{% for skill in site.skills %}
+<div class="skill-item">
+  <a href="{{ skill.url }}">
+    <img src="/assets/icons/{{ skill.icon }}" alt="{{ skill.title }}" width="50">
+    <h3>{{ skill.title }}</h3>
+  </a>
+</div>
 {% endfor %}
 
 ## **Mis proyectos**
