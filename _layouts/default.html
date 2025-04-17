@@ -2,27 +2,31 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  {% seo %}
 </head>
 <body>
-  <header>
-    <h1>{{ site.title }}</h1>
-    <p>{{ site.description }}</p>
+  <header class="page-header">
+    <h1 class="project-name">{{ site.title }}</h1>
+    <h2 class="project-tagline">{{ site.description }}</h2>
+    <nav>
+      <a href="{{ "/" | relative_url }}" class="btn">Inicio</a>
+      <a href="{{ "/about" | relative_url }}" class="btn">Sobre mí</a>
+    </nav>
   </header>
-  
-  <nav>
-    <a href="/">Inicio</a> | 
-    <a href="/about">Sobre mí</a> | 
-    <a href="#skills">Habilidades</a>
-  </nav>
-  
-  <main>
+
+  <main class="main-content">
     {{ content }}
   </main>
-  
-  <footer>
-    © {{ site.time | date: "%Y" }} {{ site.title }}
+
+  <footer class="site-footer">
+    <span class="site-footer-credits">
+      © {{ site.time | date: "%Y" }} {{ site.title }} | 
+      <a href="https://github.com/{{ site.social.github }}">GitHub</a> | 
+      <a href="https://linkedin.com/in/{{ site.social.linkedin }}">LinkedIn</a>
+    </span>
   </footer>
 </body>
 </html>
