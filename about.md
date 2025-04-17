@@ -9,7 +9,7 @@ title: Sobre mí
   </div>-->
   
   <div class="about-content">
-    <h2>Mi trayectoria profesional</h2>
+    <h2>Sobre mí</h2>
     <p>Soy un apasionado desarrollador recién titulado, con muchas ganas de ganar experiencia en el desarrollo de software.</p>
     
     <h3>Mis conocimientos:</h3>
