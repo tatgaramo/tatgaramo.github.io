@@ -1,4 +1,4 @@
-{% raw %}---
+---
 layout: default
 title: Gestor de Empleados
 slug: gestor-empleados
@@ -18,7 +18,7 @@ repo_url: https://github.com/tuusuario/gestor-empleados-->
 {% for i in (1..4) %}
   <img src="/assets/images/{{ page.slug }}-{{ i }}.png" 
        alt="{{ page.title }} captura {{ i }}">
-{% endfor %}{% endraw %}
+{% endfor %}
 <!--![Captura del proyecto](/assets/images/{{ page.image }})-->
 
 
