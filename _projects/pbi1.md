@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Proyecto curso IBM - Datahack
-slug: pbi-1
+slug: pbi1
 image: gestor-empleados.png
 description: Informe para el análisis y visualizacion de datos, proyecto del curso realizado IBM-Datahack
 technologies: [Power BI]
