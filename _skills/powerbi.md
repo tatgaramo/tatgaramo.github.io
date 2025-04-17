@@ -4,7 +4,7 @@ title: Power BI
 icon: pbi.svg
 description: " He estado aprendido Power BI para la visualización y análisis de datos."
 projects:
-  - pbi1.md
+  - pbi1
 ---
 
 # {{ page.title }}
