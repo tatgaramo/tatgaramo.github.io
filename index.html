@@ -357,6 +357,30 @@
               Enviar
             </button>
           </form>
+          <script>
+const form = document.querySelector('.contact__form');
+const msg = document.querySelector('.contact__msg');
+
+form.addEventListener('submit', function (e) {
+  e.preventDefault(); // evita el envío normal
+
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+
+  const subject = `Mensaje de ${name}`;
+  const body = `Nombre: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0AMensaje:%0D%0A${message}`;
+  const mailtoLink = `mailto:tuemail@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+  // Muestra el mensaje visual
+  msg.style.display = 'block';
+
+  // abre el cliente de correo tras 0.5s para que se vea el mensaje
+  setTimeout(() => {
+    window.location.href = mailtoLink;
+  }, 500);
+});
+</script>
         </div>
       </div>
     </section>
